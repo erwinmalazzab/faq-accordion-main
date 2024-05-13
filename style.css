@@ -33,8 +33,11 @@ h1{
     color: hsl(292, 42%, 14%);
     font-size: 2.6rem;
     margin-left: 5%;
-    
 }
+.btn{
+    user-select: none;
+}   
+
 h4{
     color: hsl(292, 42%, 14%);
     font-size: 1em;
@@ -61,5 +64,12 @@ section > .question{
 }
 h4:hover{
     color: #ac26ef;
+    cursor: pointer;
+}
+.question:hover h4{
+    color: #ac26ef;
+}
+
+.btn:hover{
     cursor: pointer;
 }
